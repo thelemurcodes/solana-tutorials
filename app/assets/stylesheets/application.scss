@@ -10,3 +10,15 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+:root {
+  font-size: calc(1rem + 0.5vw);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+center-l {
+  box-sizing: content-box;
+}
